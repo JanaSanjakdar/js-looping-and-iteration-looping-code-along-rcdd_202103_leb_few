@@ -1,6 +1,7 @@
 // Code your solutions in this file
 /*const names=['Liza','Kaitlin','Jan'];
 const event="surprise";*/
+const names=['Liza','Kaitlin','Jan'];
   function writeCards(names, event) {
     let newArray=[];
   for (let i=0; i<names.length; i++) {
@@ -8,7 +9,7 @@ const event="surprise";*/
   }
   return newArray
 }
-const names=['Liza','Kaitlin','Jan'];
+
 console.log (writeCards(names, "surprise"));
 
 
